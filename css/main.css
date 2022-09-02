@@ -1,3 +1,4 @@
+/* all */
 .slick-track,
 .slick-list {
     transition-delay: 30ms;
@@ -19,51 +20,6 @@ body {
 
 .mainColor {
     color: #008850;
-}
-
-
-
-/* TopBanner */
-.TopBanner {
-    background: #008850;
-    color: #f9f9f9;
-    overflow: hidden;
-    height: 155px;
-    transition: 0.4s;
-    line-height: 1;
-}
-
-.TopBanner .inner {
-    position: relative;
-    padding: 50px 0;
-}
-
-.TopBanner.on {
-    height: 0;
-}
-
-.TopBanner h2 {
-    font-size: 30px;
-    font-weight: 700;
-    margin: 0 0 10px 0;
-}
-
-
-.TopBanner h2 span {
-    font-weight: 400;
-    color: #00e085;
-    margin: 0 0 0 10px;
-}
-
-.TopBanner p {
-    font-size: 15px;
-}
-
-.TopBanner .top_close_btn {
-    position: absolute;
-    top: 30px;
-    right: -2px;
-    font-size: 40px;
 }
 
 
@@ -267,6 +223,51 @@ body {
 
 .Header .Gnb>ul>li>a:hover::after {
     right: 35px;
+}
+
+
+
+/* TopBanner */
+.TopBanner {
+    background: #008850;
+    color: #f9f9f9;
+    overflow: hidden;
+    height: 155px;
+    transition: 0.4s;
+    line-height: 1;
+}
+
+.TopBanner .inner {
+    position: relative;
+    padding: 50px 0;
+}
+
+.TopBanner.on {
+    height: 0;
+}
+
+.TopBanner h2 {
+    font-size: 30px;
+    font-weight: 700;
+    margin: 0 0 10px 0;
+}
+
+
+.TopBanner h2 span {
+    font-weight: 400;
+    color: #00e085;
+    margin: 0 0 0 10px;
+}
+
+.TopBanner p {
+    font-size: 15px;
+}
+
+.TopBanner .top_close_btn {
+    position: absolute;
+    top: 30px;
+    right: -2px;
+    font-size: 40px;
 }
 
 
@@ -1001,7 +1002,7 @@ body {
 .Footer .ft_top .right li a {
     position: relative;
     display: block;
-    padding: 0 30px 0 20px;
+    padding: 0 20px 0 20px;
 }
 
 .Footer .ft_top .right li a::before {
