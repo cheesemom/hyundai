@@ -272,7 +272,7 @@ body {
 
 
 
-/* Section01 */
+/* MainSlider */
 .main_slider figure {
     position: relative;
     height: 900px;
@@ -351,6 +351,9 @@ body {
     transition: 0.5s 1s;
 }
 
+
+
+/* Section01 */
 .Section01 {
     position: relative;
     padding: 155px 0 0 0;
@@ -471,7 +474,6 @@ body {
 }
 
 
-
 /* 내가 따로 추가로한거 */
 .Section01 .inner h2 {
     font-size: 58px;
@@ -567,7 +569,6 @@ body {
     color: #008850;
     font-size: 14px;
 }
-
 
 
 
@@ -959,6 +960,9 @@ body {
     font-weight: 300;
 }
 
+
+
+/* Footer */
 .Footer {
     position: relative;
     border-top: 1px solid #ddd;
@@ -1074,7 +1078,6 @@ body {
     top: -80px;
     left: 50%;
     transform: translateX(-50%);
-
 }
 
 .Footer .ft_top .content>ul {
